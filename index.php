@@ -39,14 +39,14 @@
 		<div class="container">
 			<div class="col">
 				<div>
-					<a class="scroll" href="index.html#music"><span>Music</span></a>
-					<a class="scroll" href="index.html#tour"><span>About</span></a>
+					<a class="scroll" href="#music"><span>Music</span></a>
+					<a class="scroll" href="#tour"><span>About</span></a>
 				</div>
 				<h1>ONIISHA</h1>
 			</div>
 			<div class="col">
-				<a class="scroll" href="index.html#video"><span>Video</span></a>
-				<a class="scroll" href="index.html#footer"><span>Follow</span></a>
+				<a class="scroll" href="#video"><span>Video</span></a>
+				<a class="scroll" href="#footer"><span>Follow</span></a>
 			</div>
 			
 			<div class="cta">
