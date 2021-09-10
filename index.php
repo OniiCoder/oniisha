@@ -7,11 +7,11 @@
 	<meta content="Official site for Oniisha | Cherry Coco available now!" name="description"/>
 	<meta content="en_US" property="og:locale"/>
 	<meta content="website" property="og:type"/>
-	<meta content="Tems | Official Website" property="og:title"/>
+	<meta content="Oniisha | Official Website" property="og:title"/>
 	<meta content="Official site for Oniisha | Cherry Coco available now!" property="og:description"/>
 	<meta content="./dist/img/og.jpg" property="og:url"/>
 	<meta content="" property="og:image"/>
-	<meta content="Tems | Official Website" property="og:site_name"/>
+	<meta content="Oniisha | Official Website" property="og:site_name"/>
 	<meta content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1" name="viewport" />
 	<link href="dist/css/style.min.css" rel="stylesheet"/>
 	<link href="https://www.leadingvibe.com/dist/img/favicon.png" rel="icon" type="image/png"/>
@@ -56,7 +56,7 @@
 				<!-- <a href="https://presaves.sonymusicfans.com/?campaign_id=125929&mailing_list_ids=a0S0800000VqPQ9EAN&retargeting_consent=0&source_channel=Spotify" class="btn">i class="fab fa-spotify"></i><span>Pre-Save</span></a> -->
 				<!-- <a href="#" class="apple-btn btn"><i class="fab fa-apple"></i><span>Pre-Add</span></a>
 				<a href="https://www.youtube.com/channel/UCWfi5ELXGAe-DCA6cOP3aNw" class="btn" target="_blank"><i class="fab fa-youtube"></i><span>Subscribe</span></a>
-				<p class="note">By connecting, you agree to follow Tems, and receive email communication from Tems. For more information on how we use your data, please see the links below.</p> -->
+				<p class="note">By connecting, you agree to follow Oniisha, and receive email communication from Oniisha. For more information on how we use your data, please see the links below.</p> -->
 			</div>
 		</div>
 		</div>
