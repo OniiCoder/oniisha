@@ -76,7 +76,7 @@
 					<div class="event">
 						<div class="event-date">Background</div>
 						<div class="event-location">
-							ONIISHA; real name Peter Onisha Peregbakumo is a young talented artiste with both parents from Nigeria (West Africa). Oniisha is all about art and creating a unique sound around AfroPop and Alternative music. Oniisha is based in Ghana at the moment and fully focused on music as a career and wishes to bring people joy through his music.
+							ONIISHA; full name Peter Onisha Peregbakumo is a young talented artiste with both parents from Nigeria (West Africa). Oniisha is all about art and creating a unique sound around AfroPop and Alternative music. Oniisha is based in Ghana at the moment and fully focused on music as a career and wishes to bring people joy through his music.
 						</div>
 					</div>
 				</div>
