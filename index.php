@@ -15,25 +15,10 @@
 	<meta content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1" name="viewport" />
 	<link href="dist/css/style.min.css" rel="stylesheet"/>
 	<link href="https://www.leadingvibe.com/dist/img/favicon.png" rel="icon" type="image/png"/>
+    <script defer src="https://unpkg.com/alpinejs@3.7.0/dist/cdn.min.js"></script>
 </head>
 <body>
 	<a href="index.html#main" class="sr">Skip to content</a>
-	<!-- Google Tag Manager -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPBQ67"
-						height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<script>(function (w, d, s, l, i) {
-		w[l] = w[l] || [];
-		w[l].push({'gtm.start':
-				new Date().getTime(), event: 'gtm.js'});
-		var f = d.getElementsByTagName(s)[0],
-			j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-		j.async = true;
-		j.src =
-			'//www.googletagmanager.com/gtm.js?id=' + i + dl;
-		f.parentNode.insertBefore(j, f);
-	})(window, document, 'script', 'dataLayer', 'GTM-PPBQ67');</script>
-	<!-- End Google Tag Manager -->
-	<script src="https://sme.theappreciationengine.com/framework/js/492?segment=1159063"></script>
 	<header id = "header">
 		<div class="bg">
 		<div class="container">
@@ -50,9 +35,9 @@
 			</div>
 			
 			<div class="cta">
-				<p><span>"Cherry Coco"</span></p>
+				<p><span>"Hold You Down"</span></p>
 				<p>Available Now</p>
-				<a href="https://fanlink.to/cherrycoco" target="_blank" class="btn"><span>Listen Now</span></a>
+				<a href="https://fanlink.to/OxJ-Hold-You-Down" target="_blank" class="btn"><span>Listen Now</span></a>
 				<!-- <a href="https://presaves.sonymusicfans.com/?campaign_id=125929&mailing_list_ids=a0S0800000VqPQ9EAN&retargeting_consent=0&source_channel=Spotify" class="btn">i class="fab fa-spotify"></i><span>Pre-Save</span></a> -->
 				<!-- <a href="#" class="apple-btn btn"><i class="fab fa-apple"></i><span>Pre-Add</span></a>
 				<a href="https://www.youtube.com/channel/UCWfi5ELXGAe-DCA6cOP3aNw" class="btn" target="_blank"><i class="fab fa-youtube"></i><span>Subscribe</span></a>
@@ -108,20 +93,14 @@
 		
 	</main>
 	<footer id = "footer">
-		<div class="container">
-			<form class="newsletter" action ="https://subs.sonymusicfans.com/submit">
-				<div class="inputs-wrap">
-					<input type="hidden" name="ae_segment_id" id="ae_segment_id" value="1159048">
-					<input type="hidden" name="ae_brand_id" id="ae_brand_id" value="4570640">
-					<input type="hidden" name="ae_activities" id="ae_activities" value='{"actions":{"formsubmission":69466},"mailing_list_optins":{"a0S0800000VqPQ9EAN":69467}}'>
-					<input type="hidden" name="ae" id="ae" value="7d966967c22fe575eae042270621e3c2f218f9800e9d9a320a8ccb08322ccecd">
-					<input type="hidden" name="form" value="125824">
-					<input type="hidden" name="source_channel" value="Email">
-					<input id="field_email_address" name="field_email_address" type="email" required="required" aria-label="Email Address" placeholder="Join The Mailing List">
-					<input type="hidden" id="default_mailing_list" name="default_mailing_list" value="a0S0800000VqPQ9EAN">
-					<button type="submit" class="btn">JOIN</button>
-				</div>
-			</form>
+		<div x-data="{ subscribed: false }" class="container">
+<!--			<form class="newsletter" method="post">-->
+<!--				<div class="inputs-wrap">-->
+<!--					<input id="email_address" name="email_address" type="email" required="required" aria-label="Email Address" placeholder="Join The Mailing List">-->
+<!--					<button @click="toggle" type="submit" class="btn">JOIN</button>-->
+<!--                    <p x-sho="subscribed">Some sample text!</p>-->
+<!--				</div>-->
+<!--			</form>-->
 			<ul class = 'social'>
 				<!-- <li><a href = 'https://www.facebook.com/oniisha' target = '_blank'><span class = 'sr'>Facebook</span><i class = 'fab fa-facebook-f'></i></a></li> -->
 				<li><a href = 'https://twitter.com/oniishaa' target = '_blank'><span class = 'sr'>Twitter</span><i class = 'fab fa-twitter'></i></a></li>
@@ -156,5 +135,11 @@
 	<script src="https://obs.smehost.net/formssonymusicfanscom-appirioprod/apple-music/v1/amk.js"></script>
 	<script src="dist/js/bundle.min.js"></script>
 	<script src="https://js-cdn.music.apple.com/musickit/v1/musickit.js"></script>
+
+<script>
+    // Appline.newsletter ('newsletter', () {
+    //     subscribed: false,
+    // })
+</script>
 </body>
 </html>
